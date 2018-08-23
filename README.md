@@ -61,8 +61,8 @@ Response Object:
 
 ### Release random
 
-GET - /release/random
-QUERY 
+- GET - /release/random
+- QUERY 
 	genre - genre for search tracks (optional)
 	clientId,clientSecret
 
@@ -89,10 +89,10 @@ Response Object:
 
 
 ### getNewArtists()
-GET - /artist/new
-PARAMS 
+- GET - /artist/new
+- PARAMS 
 	id - id of artist
-QUERY 
+- QUERY 
 	clientId,clientSecret
 	limit - Number limit of query instances (optional)
 
@@ -113,10 +113,10 @@ Response Object:
 
 ### getArtistInfo()
 
-GET - /artist/info/{id}
-PARAMS 
+- GET - /artist/info/{id}
+- PARAMS 
 	id - id of artist
-QUERY 
+- QUERY 
 	clientId,clientSecret
 
 Response Object: 
@@ -130,10 +130,10 @@ Response Object:
 ```
 ### getArtistPlays()
 
-GET - /artist/totalplays/{id}
-PARAMS 
+- GET - /artist/totalplays/{id}
+- PARAMS 
 	id - id of artist
-QUERY 
+- QUERY 
 	clientId,clientSecret
 
 Response Object: 
@@ -145,10 +145,10 @@ Response Object:
 ```
 ### getArtisttips()
 
-GET - /artist/totaltips/{id}
-PARAMS 
+- GET - /artist/totaltips/{id}
+- PARAMS 
 	id - id of artist
-QUERY 
+- QUERY 
 	clientId,clientSecret
 
 Response Object: 
@@ -162,8 +162,8 @@ Response Object:
 
 Checks if current user is artist or not;
 
-GET - /artist/isartist
-QUERY 
+- GET - /artist/isartist
+- QUERY 
 	clientId,clientSecret
 
 Response Object: 
@@ -174,8 +174,8 @@ Response Object:
 ```
 
 ### isArtistVerified()
-GET - /artist/isverified
-QUERY 
+- GET - /artist/isverified
+- QUERY 
 	clientId,clientSecret
 
 Response Object: 
@@ -186,10 +186,10 @@ Response Object:
 ```
 ### getArtistEarnings()
 
-GET - /artist/earnings/{id}
-PARAMS
+- GET - /artist/earnings/{id}
+- PARAMS
 	id - artist _id
-QUERY 
+- QUERY 
 	clientId,clientSecret
 
 Response Object: 
