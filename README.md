@@ -109,7 +109,7 @@ Response Object:
 		...
     ]
 }
-
+```
 
 ### getArtistInfo()
 
@@ -183,7 +183,7 @@ Response Object:
 {
 	"success":Boolean
 }
-
+```
 ### getArtistEarnings()
 
 GET - /artist/earnings/{id}
