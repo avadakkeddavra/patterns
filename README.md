@@ -21,8 +21,8 @@ http://localhost:3000/media/0x92e853935f8588956057ba87866fc6d58c82ba72
 
 ### Get genres
 
-GET - /release/genres
-QUERY 
+-GET - /release/genres
+-QUERY 
 	clientId, clientSecret
 
 Response Array:
@@ -34,10 +34,10 @@ Response Array:
 
 ### Release details
 
-GET - /release/details/{id};
-PARAMS 
+-GET - /release/details/{id};
+-PARAMS 
 	id - _id of track;
-QUERY 
+-QUERY 
 	clientId,clientSecret
 
 Response Object: 
