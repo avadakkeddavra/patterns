@@ -34,9 +34,9 @@ Response Array:
 
 ### Release details
 
-GET - /release/details/{id}
+GET - /release/details/{id};
 PARAMS 
-	id - _id of track
+	id - _id of track;
 QUERY 
 	clientId,clientSecret
 
